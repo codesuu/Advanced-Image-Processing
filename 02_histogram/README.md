@@ -1,3 +1,7 @@
+# Histogram Equalization without OpenCV
+
+[Github: withoutCV.ipynb](https://github.com/parkjoonsuu/Advanced-Image-Processing/blob/master/02_histogram/withoutCV.ipynb)
+
 # REFERENCE
 
 [Histogram equalization - Wikipedia](https://en.wikipedia.org/wiki/Histogram_equalization)  
