@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-# import cv2 as cv
 import numpy as np
 from math import sqrt
 
@@ -65,7 +64,7 @@ for y in range(30):
     kMeansOneIter(centroidValues, pixelClusterAssignment, pixels)
 
 
-#check for convergence
+# check for convergence
 
 cv30 = centroidValues
 difference = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,13 +76,15 @@ for k in range(16):
     difference[k] = cv31[k] - cv30[k]
 
 print(difference)
-#Should be zero everywhere
+# Should be zero everywhere
 
-#Finally, we will now go back to the large picture and replace each pixel's (r,g,b)
-#values with value of the closest cluster centroid
+# Finally, we will now go back to the large picture and replace each pixel's
+# (r,g,b)
+# values with value of the closest cluster centroid
 
-#First we will match up each pixel in the large image with the centroid that is closest to it
+# First we will match up each pixel in the large image with the centroid that
+# is closest to it
 
-pixelClusterAssignment1 = np.ones((512,512))
+pixelClusterAssignment1 = np.ones((512, 512))
 
-clusterAssignment(cv30,pixelClusterAssignment1,pixels1)
+clusterAssignment(cv30, pixelClusterAssignment1, pixels1)
