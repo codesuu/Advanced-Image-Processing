@@ -3,9 +3,9 @@ _test.*
 test.
 test_*
 ~*
-*.docx
-*.doc
-*.hwp
+# *.docx
+# *.doc
+# *.hwp
 .vscode
 
 ## Ignore Visual Studio temporary files, build results, and
