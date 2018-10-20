@@ -1,0 +1,17 @@
+﻿"Github 02_hist_and_kmeans/k-mean/withoutCv.ipynb at master · parkjoonsuu/Advanced-Image-Processing."
+	
+. "Github 02_hist_and_kmeans/k-mean/withoutCv.py at master · parkjoonsuu/Advanced-Image-Processing." from https://github.com/parkjoonsuu/Advanced-Image-Processing/blob/master/02_hist_and_kmeans/k-mean/withoutCv.py
+
+	
+. "Github 02_quantization/histogram/withoutCV.ipynb at master · parkjoonsuu/Advanced-Image-Processing." from https://github.com/parkjoonsuu/Advanced-Image-Processing/blob/master/02_quantization/histogram/withoutCV.ipynb.
+	
+. "Github 02_quantization/histogram/withoutCV.py at master · parkjoonsuu/Advanced-Image-Processing." from https://github.com/parkjoonsuu/Advanced-Image-Processing/blob/master/02_quantization/histogram/withoutCv.py.
+	
+. "Histogram Equalization — OpenCV 2.4.13.7 documentation." from https://docs.opencv.org/2.4/doc/tutorials/imgproc/histograms/histogram_equalization/histogram_equalization.html.
+	
+. "Histogram equalization - Wikipedia." from https://en.wikipedia.org/wiki/Histogram_equalization.
+	
+. "k-means clustering - Wikipedia." from https://en.wikipedia.org/wiki/K-means_clustering.
+	
+. "K-Means Clustering in OpenCV — OpenCV 3.0.0-dev documentation." from https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_ml/py_kmeans/py_kmeans_opencv/py_kmeans_opencv.html.
+	

@@ -1,0 +1,18 @@
+﻿(28, Aug, 2017). "Gaussian noise - Wikipedia." 2018, from https://en.wikipedia.org/wiki/Gaussian_noise.
+	
+. "OpenCV library." from https://opencv.org/.
+	
+(31, Oct, 2014). "Salt and Pepper Image Denoising Using MATLAB | Wirebiters." from http://www.wirebiters.com/salt-pepper-image-denoising-using-matlab/.
+	
+Barbu, T. (2013). Variational image denoising approach with diffusion porous media flow. Abstract and Applied Analysis, Hindawi.
+	
+Dawson-Howe, K. (2014). A practical introduction to computer vision with opencv, John Wiley & Sons.
+	
+Marques, O. (2011). Practical image and video processing using MATLAB, John Wiley & Sons.
+	
+OpenCV. "OpenCV: Smoothing Images." from https://docs.opencv.org/3.1.0/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html.
+	
+Tuzlukov, V. (2002). Signal processing noise, CRC Press.
+	
+고병철 (2015). "산불 재해 감시를 위한 IoT 기술." Broadcasting and Media Magazine 20(3): 91-98.
+	
