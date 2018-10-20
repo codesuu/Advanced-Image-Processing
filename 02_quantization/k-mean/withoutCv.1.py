@@ -56,7 +56,7 @@ def run_kMean(X, initial_centroids, max_iters):
     return centroids, idx
 
 
-imgPath = '../assets/3_9.jpg'
+imgPath = '../assets/mandrill.jpg'
 image = pim.imread(imgPath)
 rows = image.shape[0]
 cols = image.shape[1]
@@ -64,7 +64,7 @@ image = image / 255
 X = image.reshape(image.shape[0] * image.shape[1], 3)
 
 # k = 10
-K = 10
+K = 5
 max_iters = 10
 
 initial_centroids = init_centroids(X, K)
@@ -74,30 +74,7 @@ idx = closest_centroids(X, centroids)
 k10 = centroids[idx]
 k10 = np.reshape(k10, (rows, cols, 3))
 
-# k = 20
-K = 20
-max_iters = 10
 
-initial_centroids = init_centroids(X, K)
-centroids, idx = run_kMean(X, initial_centroids, max_iters)
-
-idx = closest_centroids(X, centroids)
-k20 = centroids[idx]
-k20 = np.reshape(k20, (rows, cols, 3))
-
-# k = 30
-K = 30
-max_iters = 10
-
-initial_centroids = init_centroids(X, K)
-centroids, idx = run_kMean(X, initial_centroids, max_iters)
-
-idx = closest_centroids(X, centroids)
-k30 = centroids[idx]
-k30 = np.reshape(k30, (rows, cols, 3))
-
-plt.subplot('221'), plt.imshow(image, 'gray'), plt.title('Original Image')
-plt.subplot('222'), plt.imshow(k10, 'gray'), plt.title('K=10 Image')
-plt.subplot('223'), plt.imshow(k20, 'gray'), plt.title('K=20 Image')
-plt.subplot('224'), plt.imshow(k30, 'gray'), plt.title('K=30 Image')
+plt.subplot('121'), plt.imshow(image, 'gray'), plt.title('Original Image')
+plt.subplot('122'), plt.imshow(k10, 'gray'), plt.title('K=5 Image')
 plt.show()
