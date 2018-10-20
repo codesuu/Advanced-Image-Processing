@@ -13,6 +13,3 @@ Marques, O. (2011). Practical image and video processing using MATLAB, John Wile
 OpenCV. "OpenCV: Smoothing Images." from https://docs.opencv.org/3.1.0/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html.
 	
 Tuzlukov, V. (2002). Signal processing noise, CRC Press.
-	
-고병철 (2015). "산불 재해 감시를 위한 IoT 기술." Broadcasting and Media Magazine 20(3): 91-98.
-	
