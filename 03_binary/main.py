@@ -12,6 +12,9 @@ def main():
     # get thresold
     thOpti = threshold_optimal(img)
     thOtsu = threshold_otsu(img)
+    thOpti -= 30
+    print(thOpti)
+    print(thOtsu)
 
     # image binirization
     imgOptiBin = binirize(img, thOpti)
@@ -27,12 +30,16 @@ def main():
 
     images = [imgDilationOtsu, imgErosionOtsu,
               imgOpeningOtsu, imgClosingOtsu, imgOC, imgCO]
-    titles = ['Dilation', 'Erosion', 'Opening', 'Closing', 'O-C', 'C-O']
+    titles = ['Dilation', 'Erosion', 'Opening',
+              'Closing', 'Opening-Closing', 'Closing-Opening']
 
-    for i in range(6):
-        plt.subplot(2, 3, i + 1), plt.title(titles[i])
-        plt.imshow(images[i], 'gray')
-
+    # for i in range(2):
+    #     plt.subplot(1, 2, i + 1), plt.title(titles[i])
+    #     plt.imshow(images[i], 'gray')
+    plt.subplot(1, 2, 1), plt.title('Optimal Algorithm')
+    plt.imshow(imgOptiBin, 'gray')
+    plt.subplot(1, 2, 2), plt.title('Otsu Algorithm')
+    plt.imshow(imgOtsuBin, 'gray')
     plt.show()
 
 
