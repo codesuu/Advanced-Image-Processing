@@ -33,15 +33,9 @@ def main():
     titles = ['Dilation', 'Erosion', 'Opening',
               'Closing', 'Opening-Closing', 'Closing-Opening']
 
-    # for i in range(2):
-    #     plt.subplot(1, 2, i + 1), plt.title(titles[i])
-    #     plt.imshow(images[i], 'gray')
-    plt.subplot(1, 2, 1), plt.title('Optimal Algorithm')
-    plt.imshow(imgOptiBin, 'gray')
-    plt.subplot(1, 2, 2), plt.title('Otsu Algorithm')
-    plt.imshow(imgOtsuBin, 'gray')
-    plt.show()
-
+    for i in range(2):
+        plt.subplot(1, 2, i + 1), plt.title(titles[i])
+        plt.imshow(images[i], 'gray')
 
 if __name__ == '__main__':
     main()
