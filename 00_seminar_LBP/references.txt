@@ -4,6 +4,6 @@ Ahonen, T., et al. (2006). "Face description with local binary patterns: Applica
 	
 Ojala, T., et al. (2002). "Multiresolution gray-scale and rotation invariant texture classification with local binary patterns." IEEE Transactions on pattern analysis and machine intelligence 24(7): 971-987.
 
-GIT
+Accessed 02, December, 2018. “Advanced-Image-Processing/parkjoonsuu/Advanced-Image-Processing/00_seminar_LBP,” https://github.com/parkjoonsuu/Advanced-Image-Processing/tree/master/00_seminar_LBP 
 	
-Liao, S., Zhu, X., Lei, Z., Zhang, L., & Li, S. Z. (2007, August). Learning multi-scale block local binary patterns for face recognition. In International Conference on Biometrics (pp. 828-837). Springer, Berlin, Heidelberg.
+Liao, S., Zhu, X., Lei, Z., Zhang, L., & Li, S. Z. (2007, August). "Learning multi-scale block local binary patterns for face recognition," In International Conference on Biometrics (pp. 828-837). Springer, Berlin, Heidelberg.
