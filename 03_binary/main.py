@@ -12,9 +12,6 @@ def main():
     # get thresold
     thOpti = threshold_optimal(img)
     thOtsu = threshold_otsu(img)
-    thOpti -= 30
-    print(thOpti)
-    print(thOtsu)
 
     # image binirization
     imgOptiBin = binirize(img, thOpti)

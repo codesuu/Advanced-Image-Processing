@@ -1,0 +1,9 @@
+﻿. "Local binary patterns - Wikipedia." Retrieved 12, 01, 2018, from https://en.wikipedia.org/wiki/Local_binary_patterns.
+	
+Ahonen, T., et al. (2006). "Face description with local binary patterns: Application to face recognition." IEEE Transactions on Pattern Analysis & Machine Intelligence(12): 2037-2041.
+	
+Ojala, T., et al. (2002). "Multiresolution gray-scale and rotation invariant texture classification with local binary patterns." IEEE Transactions on pattern analysis and machine intelligence 24(7): 971-987.
+
+GIT
+	
+Liao, S., Zhu, X., Lei, Z., Zhang, L., & Li, S. Z. (2007, August). Learning multi-scale block local binary patterns for face recognition. In International Conference on Biometrics (pp. 828-837). Springer, Berlin, Heidelberg.
