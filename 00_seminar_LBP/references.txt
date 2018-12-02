@@ -1,4 +1,4 @@
-﻿. "Local binary patterns - Wikipedia." Retrieved 12, 01, 2018, from https://en.wikipedia.org/wiki/Local_binary_patterns.
+﻿Accessed 01, December 2018 "Local binary patterns - Wikipedia." from https://en.wikipedia.org/wiki/Local_binary_patterns.
 	
 Ahonen, T., et al. (2006). "Face description with local binary patterns: Application to face recognition." IEEE Transactions on Pattern Analysis & Machine Intelligence(12): 2037-2041.
 	

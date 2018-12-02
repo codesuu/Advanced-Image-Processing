@@ -15,7 +15,6 @@ def get_pixel(img, center, x, y):
 
 def lbp_calculated_pixel(img, x, y):
     center = img[x][y]
-    center_pixel = get_pixel(img, center, 0, 0)
     val_ar = []
     val_ar.append(get_pixel(img, center, x, y-1))       # left
     val_ar.append(get_pixel(img, center, x+1, y-1))     # bottom_left
@@ -24,14 +23,7 @@ def lbp_calculated_pixel(img, x, y):
     val_ar.append(get_pixel(img, center, x, y+1))       # right
     val_ar.append(get_pixel(img, center, x-1, y+1))     # top_right
     val_ar.append(get_pixel(img, center, x-1, y-1))     # top_left
-
-    val = ''
-    for i in range(len(val_ar)):
-        if (center_pixel - val_ar[i]) > 0:
-            val += '0'
-        else:
-            val += '1'
-    return int(val, 2)
+    return int(''.join([str(i) for i in val_ar]), 2)
 
 
 def show_output(output_list):
